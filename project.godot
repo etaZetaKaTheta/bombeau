@@ -16,7 +16,8 @@ config/icon="res://icon.png"
 
 [autoload]
 
-Server="*res://scripts/singletons/Server.gd"
+GameServer="*res://scripts/singletons/GameServer.gd"
+Gateway="*res://scripts/singletons/Gateway.gd"
 
 [display]
 

@@ -1,7 +1,7 @@
 extends Node
 
 var network = NetworkedMultiplayerENet.new()
-var port = 18769
+var port = 18771
 var max_players = 12
 
 func _ready():

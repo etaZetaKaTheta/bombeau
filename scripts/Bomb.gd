@@ -6,7 +6,7 @@ export var knockback = 100.0
 var damage = 0.0
 
 func _ready():
-	Server.fetch_bomb_damage("normal_bomb", get_instance_id())
+	GameServer.fetch_bomb_damage("normal_bomb", get_instance_id())
 	var timer = Timer.new()
 	timer.set_wait_time(explosion_delay)
 	timer.connect("timeout", self, "_timeout")
